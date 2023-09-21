@@ -24,6 +24,7 @@ print(request.status_code) #check if worked
 print('\n')
 ##############################################################
 
+#3) Download Source code from GitHub using GET
 print("M3")
 ##############################################################
 #get raw data for my source code
@@ -38,9 +39,9 @@ with open(filename, mode="wb") as file:
 print("\n")
 ##############################################################
 
+#4) Show Source code in terminal
 print("M4")
 ##############################################################
-#display my source code in terminal
 f = open(filename,'r')
 for line in f.readlines():
 	print(line)
