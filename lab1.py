@@ -30,7 +30,7 @@ print("M3")
 #get raw data for my source code
 URL2 = "https://raw.githubusercontent.com/Byvalvin/CMPUT404-Lab1/master/lab1.py"
 request2 = requ.get(URL2) #GET request
-# print(request2.content)
+print(request2.content)
 
 #write my source code to another file and save it
 filename = "code.py"
